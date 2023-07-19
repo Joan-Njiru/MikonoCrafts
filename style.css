@@ -1,4 +1,4 @@
-/* Landing page */
+/* index page */
 .landing{
     background-color: #dfebc6;
     font-family: 'Lato', sans-serif;
@@ -142,8 +142,8 @@ header h1{
     
 }
 #category{
-    width: 350px;
-    height:350px;
+    width: 320px;
+    height:320px;
     object-fit: cover;
     margin: 20px 80px;
     border-radius: 5%;
