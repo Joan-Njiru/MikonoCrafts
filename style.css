@@ -1,0 +1,169 @@
+/* Landing page */
+.landing{
+    background-color: #dfebc6;
+    font-family: 'Lato', sans-serif;
+    font-weight: 0 300;
+    text-align: center;
+
+}
+.head{
+    width: 100%;
+    background-color: rgb(39, 95, 53);
+    
+}
+#title{
+    margin-top: 3%;
+    margin-left: 35%;
+    font-size: 55px;
+    color: white;
+}
+#quote{
+    font-size: 20px;
+    font-style: italic;
+    line-height: 5px;
+}
+#hands{
+    width: 450px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 10%;
+    /* border: solid 2px rgb(26, 85, 26); */
+    box-shadow: darkgreen 20px;
+    
+}
+.hands{
+    margin-top:5%;
+}
+.buttons{
+    margin-top: 3%;
+  
+}
+.buttons button{
+    margin: 3%;
+}
+
+#buyer{
+    padding: 8px 40px ;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(40, 94, 40);
+    color: wheat;
+    font-size: 16px;
+}
+#buyer a{
+    text-decoration: none;
+    color: wheat;
+}
+
+/* seller sign up */
+.signup{
+    /* text-align: center; */
+    background-image: url(images/painting2.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+
+}
+.form{
+    float: right;
+    margin-top: 4%;
+    margin-right: 10%;
+}
+#form{
+    padding: 16px 150px;
+    border-radius: 10px;
+}
+#h2{
+    margin-left: 70%;
+    margin-top: 8%;
+    color: black;
+}
+#signbutton{
+    padding:14px 40px ;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+}
+
+
+/* home page */
+header{
+    width: 90%;
+    display: flex;
+}
+header h1{
+    padding-left: 120px;
+}
+.nav{
+    width: 80%;
+    margin-left: 20%;
+    
+}
+.nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 4.5em;  
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+   
+}
+.home{
+    background-color: #dfebc6;
+    font-family: 'Lato', sans-serif;
+    font-weight: 0 300;
+}
+.search{
+    width: 100%;
+    text-align: center;
+    
+}
+#search{
+    padding: 10px 250px;
+    border-radius: 20px;
+    margin: 40px;
+}
+#search .placeholder{
+    float: left;
+}
+.whatwesell{
+    /* align-items: center; */
+    text-align: center;
+    margin-left: 10%;
+}
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: auto; */
+
+    /* text-align: center; */
+    
+}
+#category{
+    width: 350px;
+    height:350px;
+    object-fit: cover;
+    margin: 20px 80px;
+    border-radius: 5%;
+}
+#subscribe{
+    padding: 10px 200px;
+    margin-left: 35%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    background-color: rgb(52, 104, 52);
+    justify-content: space-around;
+    color: white;
+}
+footer ul li{
+    list-style: none;
+}
+#foot{
+    margin: 20px;
+}
